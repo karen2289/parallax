@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>True Parallax</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section class="intro">
+            <div class="container">
+                <div class="row lax" data-lax-translate-y="0 0, 400 100">
+                    <div class="col-sm-6 offset-sm-3 text-center">
+                        <h1 class="display-1 font-weight-bold">
+                            True Parallax
+                        </h1>
+                        <p class="lead">
+                            DISEÑO DE PÁGINAS DE ATERRIZAJE USANDO HTML Y CSS
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row mt-5">
+                    <div class="col-sm-12 text-center">
+                        <div class="product-wrapper">
+                            <img src="img/p.png" class="scroll-move lax" data-lax-translate-x="0 20, 300 350" data-lax-translate-y="100 0, 1200 -100">
+
+                            <img src="img/front.png" class="scroll-stable lax">
+
+                            <img src="img/ui.png" class="scroll-move lax" data-lax-translate-x="0 -20, 300 -350" data-lax-translate-y="400 0, 1200 -100">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="desc">
+            <div class="container text-center">
+                <br><br><br><br>
+                <a href="#">Watch our video</a>
+                <br><br>
+                <p class="col-md-8 text-white">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, at pariatur quisquam, illum aliquid excepturi quidem necessitatibus, cum repudiandae odio aut neque dolorum tempore sed soluta natus nisi est cupiditate corrupti sit expedita alias. Nam aliquam aut repudiandae!
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="lax.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
